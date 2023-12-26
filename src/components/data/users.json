@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "code": "1234",
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "password": "password123",
+      "photo": "user1234.jpg"
+    },
+    {
+      "code": "5678",
+      "firstName": "Петр",
+      "lastName": "Петров",
+      "password": "qwerty456",
+      "photo": "user5678.jpg"
+    },
+    {
+      "code": "9123",
+      "firstName": "Анна",
+      "lastName": "Сидорова",
+      "password": "abc123",
+      "photo": "user9123.jpg"
+    }
+  ]
+}
