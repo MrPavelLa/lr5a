@@ -5,21 +5,27 @@
       "firstName": "Иван",
       "lastName": "Иванов",
       "password": "password123",
-      "photo": "user1234.jpg"
+      "photo": "user1234.jpg",
+      "role": "admin"
     },
     {
       "code": "5678",
       "firstName": "Петр",
       "lastName": "Петров",
       "password": "qwerty456",
-      "photo": "user5678.jpg"
+      "photo": "user5678.jpg",
+      "role": "master",
+      "workshop": "Автомеханический"
     },
     {
       "code": "9123",
       "firstName": "Анна",
       "lastName": "Сидорова",
       "password": "abc123",
-      "photo": "user9123.jpg"
+      "photo": "user9123.jpg",
+      "role": "master",
+      "workshop": "Токарный"
     }
   ]
 }
+

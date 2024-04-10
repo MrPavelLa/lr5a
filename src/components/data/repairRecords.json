@@ -1,0 +1,109 @@
+{
+  "repairRecords": [
+    {
+      "id": 1,
+      "date": "2022-03-01",
+      "cost": 500,
+      "inventoryNumber": 234567,
+      "description": "Замена изношенных деталей"
+    },
+    {
+      "id": 2,
+      "date": "2022-03-05",
+      "cost": 800,
+      "inventoryNumber": 456789,
+      "description": "Ремонт электрической цепи"
+    },
+    {
+      "id": 3,
+      "date": "2022-03-10",
+      "cost": 300,
+      "inventoryNumber": 789012,
+      "description": "Чистка и обслуживание"
+    },
+    {
+      "id": 4,
+      "date": "2022-03-15",
+      "cost": 1000,
+      "inventoryNumber": 123987,
+      "description": "Замена механических элементов"
+    },
+    {
+      "id": 5,
+      "date": "2022-03-20",
+      "cost": 600,
+      "inventoryNumber": 567890,
+      "description": "Пайка электрических соединений"
+    },
+    {
+      "id": 6,
+      "date": "2022-03-25",
+      "cost": 400,
+      "inventoryNumber": 678901,
+      "description": "Калибровка инструмента"
+    },
+    {
+      "id": 7,
+      "date": "2022-03-30",
+      "cost": 1200,
+      "inventoryNumber": 345678,
+      "description": "Регулировка гидравлической системы"
+    },
+    {
+      "id": 8,
+      "date": "2022-04-05",
+      "cost": 900,
+      "inventoryNumber": 123456,
+      "description": "Замена расходных материалов"
+    },
+    {
+      "id": 9,
+      "date": "2022-04-10",
+      "cost": 700,
+      "inventoryNumber": 890123,
+      "description": "Обновление программного обеспечения"
+    },
+    {
+      "id": 10,
+      "date": "2022-04-15",
+      "cost": 1500,
+      "inventoryNumber": 901234,
+      "description": "Ремонт измерительного устройства"
+    },
+    {
+      "id": 11,
+      "date": "2022-04-20",
+      "cost": 200,
+      "inventoryNumber": 890123,
+      "description": "Плановая профилактика"
+    },
+    {
+      "id": 12,
+      "date": "2022-04-25",
+      "cost": 450,
+      "inventoryNumber": 234567,
+      "description": "Замена термостата"
+    },
+    {
+      "id": 13,
+      "date": "2022-04-30",
+      "cost": 800,
+      "inventoryNumber": 789012,
+      "description": "Ремонт газовой системы"
+    },
+    {
+      "id": 14,
+      "date": "2022-05-05",
+      "cost": 300,
+      "inventoryNumber": 567890,
+      "description": "Замена полотна пилы"
+    },
+    {
+      "id": 15,
+      "date": "2022-05-10",
+      "cost": 600,
+      "inventoryNumber": 123987,
+      "description": "Регулировка гидравлического подъемника"
+    }
+  ]
+}

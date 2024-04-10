@@ -1,15 +1,15 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Deposits from './Deposits';
-import Loans from './Loans';
-import Transaction from './Transaction';
+import Equipment from './Equipment';
+import CreateBlock from './CreateBlock';
+import Journal from './Journal';
 const Main = ({ code }) => {
 
-  return (    
+  return (  
     <Routes>      
-      <Route path="Deposits" element={<Deposits code={code} />} />
-      <Route path="Loans" element={<Loans code={code} />} />
-      <Route path="Transaction" element={<Transaction code={code} />} />     
+      <Route path="Equipment" element={<Equipment code={code} />} />
+      <Route path="CreateBlock" element={<CreateBlock code={code} />} />
+      <Route path="Journal" element={<Journal code={code} />} />     
     </Routes>
   );
 };

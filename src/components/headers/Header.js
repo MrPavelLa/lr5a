@@ -1,30 +1,20 @@
 import React, { useState } from 'react';
-import { Link, Outlet } from 'react-router-dom';
-import Profile from './Profile'; 
-import usersData from '../data/users.json'; 
+import Profile from './Profile';
+import usersData from '../data/users.json';
+import '../../styles/Header.css';
 
 const Header = ({ userCode, setCode }) => {
-  const [selectedCategory, setSelectedCategory] = useState('Deposits');
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
-  const [localCode, setLocalCode] = useState(''); 
-  const categories = {
-    Deposits: ['Мои вклады', 'Расчетные', 'Накопительные', 'Валютные'],
-    Loans: ['Мои кредиты', 'Ипотечные', 'Потребительские', 'Автокредиты'],
-    Transaction: ['Переводы и платежи', 'Оплата счетов и услуг', 'Пополнение счета'],
-  };
-
-  const handleBarClick = (category) => {
-    setSelectedCategory(category);
-  };
+  const [localCode, setLocalCode] = useState('');
 
   const openProfile = () => {
     setIsProfileOpen(true);
   };
 
   const handleCodeChange = (newCode) => {
-    setLocalCode(newCode); 
-    setCode(newCode); 
+    setLocalCode(newCode);
+    setCode(newCode);
   };
 
   const closeProfile = () => {
@@ -40,13 +30,14 @@ const Header = ({ userCode, setCode }) => {
   const logoutUser = () => {
     setCurrentUser(null);
   };
+  
   return (
-    <>
+    <div className='Header'>
       <div className='header_link'>
-      <div className='Bank_Name_logo'>
-        <img src="/BankLogo.png" alt="BankLogo" className="BankLogo" />
-        <a className="BankName">ПРОГРЕСС БАНК</a>
-      </div>
+        <div className='Org_Name_logo'>
+          <img src="/OrgLogo.png" alt="OrgLogo" className="OrgLogo" />
+          <a className="OrgName">ТехноМехПлюс</a>
+        </div>
 
         <button className="Profile" onClick={openProfile}>
           {currentUser ? (
@@ -57,30 +48,6 @@ const Header = ({ userCode, setCode }) => {
           )}
         </button>
       </div>
-
-      <div className="link-container">
-      <button className='link' onClick={() => handleBarClick('Deposits')}>
-        <Link to="/Deposits">Deposits</Link>
-        {selectedCategory === 'Deposits' && <div className='ButBor'></div>}
-      </button>
-      <button className='link' onClick={() => handleBarClick('Loans')}>
-        <Link to="/Loans">Loans</Link>
-        {selectedCategory === 'Loans' && <div className='ButBor'></div>}
-      </button>
-      <button className='link' onClick={() => handleBarClick('Transaction')}>
-        <Link to="/Transaction">Transaction</Link>
-        {selectedCategory === 'Transaction' && <div className='ButBor'></div>}
-      </button>
-    </div>
-
-      <div className="button-container">
-        {categories[selectedCategory].map((text, index) => (
-          <button key={index} className="bar-button" onClick={() => handleBarClick(text)}>
-            {text}
-          </button>
-        ))}
-      </div>
-
       {isProfileOpen && (
         <Profile
           currentUser={currentUser}
@@ -90,13 +57,8 @@ const Header = ({ userCode, setCode }) => {
           onCodeChange={handleCodeChange}
         />
       )}
-      <Outlet />
-    </>
+    </div>
   );
 };
 
 export default Header;
-
-
-
-

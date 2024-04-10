@@ -1,0 +1,11 @@
+.NewEquipment{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.CreateRecord{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}

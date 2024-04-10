@@ -1,0 +1,31 @@
+.Equipment {
+    height: 100%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.Filter {
+    background-color:  #ffa8ff;
+    position: relative;
+}
+
+.FilterBlock {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 20px;
+}
+
+.FilterBlock li {
+    list-style-type: none;
+}
+.Hardware{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.Hardware *{
+    margin-left: 10px;
+}

@@ -1,0 +1,104 @@
+{
+  "equipment": [
+  {
+  "id": 1,
+  "inventoryNumber": 123456,
+  "workshop": "Фрезеровочный",
+  "name": "Станок фрезерный",
+  "needsRepair": false,
+  "lastMaintenanceDate": "2022-02-15",
+  "powerConsumption": "220V",
+  "manufacturer": "ABC Machinery"
+  },
+  {
+  "id": 2,
+  "inventoryNumber": 234567,
+  "workshop": "Автомеханический",
+  "name": "Токарный автомат",
+  "needsRepair": true,
+  "lastMaintenanceDate": "2022-01-20",
+  "powerConsumption": "380V",
+  "manufacturer": "XYZ Engineering"
+  },
+  {
+  "id": 3,
+  "inventoryNumber": 345678,
+  "workshop": "Токарный",
+  "name": "Гидравлический пресс",
+  "needsRepair": false,
+  "lastMaintenanceDate": "2022-02-10",
+  "powerConsumption": "440V",
+  "manufacturer": "123 Manufacturing"
+  },
+  {
+  "id": 4,
+  "inventoryNumber": 456789,
+  "workshop": "Фрезеровочный",
+  "name": "Сварочный аппарат",
+  "needsRepair": true,
+  "lastMaintenanceDate": "2022-01-25",
+  "powerConsumption": "380V",
+  "manufacturer": "Best Welding Co."
+  },
+  {
+  "id": 5,
+  "inventoryNumber": 567890,
+  "workshop": "Автомеханический",
+  "name": "Ленточная пила",
+  "needsRepair": false,
+  "lastMaintenanceDate": "2022-02-05",
+  "powerConsumption": "220V",
+  "manufacturer": "Cutting Edge Machines"
+  },
+  {
+  "id": 6,
+  "inventoryNumber": 678901,
+  "workshop": "Токарный",
+  "name": "Электрошпиндель",
+  "needsRepair": false,
+  "lastMaintenanceDate": "2022-02-12",
+  "powerConsumption": "220V",
+  "manufacturer": "Machining Solutions"
+  },
+  {
+  "id": 7,
+  "inventoryNumber": 789012,
+  "workshop": "Фрезеровочный",
+  "name": "Газовая резка",
+  "needsRepair": true,
+  "lastMaintenanceDate": "2022-01-30",
+  "powerConsumption": "Natural Gas",
+  "manufacturer": "GasTech Industries"
+  },
+  {
+  "id": 8,
+  "inventoryNumber": 890123,
+  "workshop": "Автомеханический",
+  "name": "Гравировальный станок",
+  "needsRepair": false,
+  "lastMaintenanceDate": "2022-02-08",
+  "powerConsumption": "220V",
+  "manufacturer": "EngraveMaster"
+  },
+  {
+  "id": 9,
+  "inventoryNumber": 901234,
+  "workshop": "Токарный",
+  "name": "Контрольно-измерительный прибор",
+  "needsRepair": true,
+  "lastMaintenanceDate": "2022-01-28",
+  "powerConsumption": "110V",
+  "manufacturer": "Precision Instruments"
+  },
+  {
+  "id": 10,
+  "inventoryNumber": 123987,
+  "workshop": "Фрезеровочный",
+  "name": "Гидроподъемник",
+  "needsRepair": false,
+  "lastMaintenanceDate": "2022-02-18",
+  "powerConsumption": "380V",
+  "manufacturer": "HydroLift Technologies"
+  }
+  ]
+  }
